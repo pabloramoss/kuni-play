@@ -15,6 +15,18 @@ const Dashboard: React.FC<Props> = ({winningNumbers, choice}) => {
     setSelectedSquare(i);
   }
 
+  const handleShow = () => {
+    console.log('handleShow');
+  }
+
+  const handleShowAll = () => {
+    console.log('handleShowAll');
+  }
+
+  const handleShuffle = () => {
+    console.log('handleShuffle');
+  }
+
   return (
     <div>
       {squares.map((square, i) => (
